@@ -13,6 +13,10 @@
     font-family: boxing;
     src: url(../fonts/open-sans/OpenSans_Condensed-Regular.ttf);
 }
+@font-face {
+    font-family: boxing2;
+    src: url(../fonts/open-sans/OpenSans-Bold.ttf);
+}
 html, 
 body{
     font-family: boxing;
@@ -26,13 +30,25 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 100px;
+    width: 1348px;
+    margin-left: -125px;
 }
+.navbar-box{
+    height: 90px;
+    width: 100%;
+    
+}
+.part1-img-boss{
+    margin-left: 125px;
+}
+
 nav a{
     color: #CECDCD;
     margin-left: 40px;
     display: inline-block;
     transition: 0.3s;
     font-size: 16px;
+    font-family: boxing2;
 }
 nav a:hover{
     color: #fff;
@@ -42,7 +58,9 @@ nav a:hover{
     color: #fff;
     font-weight: 700;
 }
-
+nav{
+    margin-right: 123px;
+}
 nav a::after{
     content: '';
     width: 0%;
