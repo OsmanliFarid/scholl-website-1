@@ -245,8 +245,65 @@ nav a:hover::after{
     color: #0C101A;
     font-weight: 700;
 }
+.part4-text1{
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding: 100px 0px 40px;
+}
+.part4-text2{
+    color: #DFDFDF;
+    font-size: 14px;
+    line-height: 19px;
+    width: 500px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-left: 300px;
 
-
+}
+.part4-boxs1{
+    padding-top: 100px;
+    padding-bottom: 180px;
+}
+.part4-container2{
+    width: 1100px;
+    margin: auto;
+}
+.part4-text3{
+    text-align: center;
+    margin-top: 100px;
+}
+.part4-box2{
+    border: 3px solid #2BA7E2;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+.part4-box3{
+    border: 3px solid #2BA7E2;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.part4-box4{
+    border: 3px solid #2BA7E2;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.part4-boxs3{
+    display: flex;
+    margin-top: 75px;
+   
+    margin: 75px 150px;
+}
 
 
 
